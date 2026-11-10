@@ -1457,3 +1457,7 @@ html,body,#root{
 .shop-now-link:hover {
     text-decoration: none;
 }
+
+.hero .image {
+    cursor: pointer;
+}
