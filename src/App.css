@@ -97,7 +97,7 @@ html,body,#root{
     padding: 12px 30px;
     border: none;
     border-radius: 5px;
-    background-color: orangered;
+    background-color: red;
     color: white;
     cursor: pointer;
     margin-top: 10px;
@@ -181,7 +181,7 @@ html,body,#root{
 }
 
 .featured-carousel .slick-dots li.slick-active button:before {
-    color: orangered;
+    color: red;
 }
 
 /* ProdCards */
@@ -236,13 +236,13 @@ html,body,#root{
 }
 
 .star{
-    color: orangered;
+    color: red;
     font-size: 25px;
 }
 
 .addtocart {
     width: 100%;
-    background-color: orangered;
+    background-color: red;
     color: whitesmoke;
     padding: 8px;
     margin:auto;
@@ -898,7 +898,7 @@ html,body,#root{
 
 .sort-menu button:hover,
 .sort-menu .selected-sort {
-    color: orangered;
+    color: red;
 }
 
 /*  FILTER OPTIONS */
@@ -920,7 +920,7 @@ html,body,#root{
 .filter-option input {
     width: 16px;
     height: 16px;
-    accent-color: orangered;
+    accent-color: red;
 }
 
 .category-heading {
@@ -978,7 +978,7 @@ html,body,#root{
 }
 
 .product-page-card .star {
-    color: orangered;
+    color: red;
     font-size: 20px;
     margin-top: 10px;
 }
@@ -997,7 +997,7 @@ html,body,#root{
 /* Add to Cart button */
 .product-page-card .addtocart {
     width: 100%;
-    background-color: orangered;
+    background-color: red;
     color: whitesmoke;
     border: none;
     padding: 8px;
@@ -1013,8 +1013,8 @@ html,body,#root{
 .clear-filters {
     width: 100%;
     background-color: transparent;
-    color: orangered;
-    border: 1px solid orangered;
+    color: red;
+    border: 1px solid red;
     padding: 9px;
     margin-top: 25px;
     cursor: pointer;
@@ -1023,7 +1023,7 @@ html,body,#root{
 }
 
 .clear-filters:hover {
-    background-color: orangered;
+    background-color:red;
     color: white;
 }
 
@@ -1083,8 +1083,7 @@ html,body,#root{
     cursor: pointer;
     font-size: 16px;
 }
-
-/* Results container */
+ 
 .search-results {
     width: 100%;
     max-width: 920px;
@@ -1093,7 +1092,7 @@ html,body,#root{
     border: 1px solid #555;
 }
 
-/* Individual result */
+
 .search-result-item {
     display: block;
     color: #ccc;
@@ -1107,7 +1106,7 @@ html,body,#root{
     color: white;
 }
 
-/* No results message */
+
 .no-results {
     color: #aaa;
     padding: 15px 20px;
@@ -1121,7 +1120,7 @@ html,body,#root{
     padding: 40px 5%;
 }
 
-/* Product Main Section */
+
 .product-details-container {
     display: flex;
     gap: 50px;
@@ -1174,7 +1173,6 @@ html,body,#root{
     object-fit: contain;
 }
 
-/* Product Information */
 .product-information {
     width: 45%;
 }
@@ -1195,7 +1193,7 @@ html,body,#root{
 
 .stars,
 .review-stars {
-    color: orangered;
+    color:red;
 }
 
 .rating-text {
@@ -1267,7 +1265,6 @@ html,body,#root{
     background-color: green;
 }
 
-/* Tabs */
 .specifications-section {
     max-width: 800px;
     margin: 70px auto;
@@ -1314,7 +1311,6 @@ html,body,#root{
     line-height: 1.8;
 }
 
-/* Reviews */
 .reviews-container {
     max-width: 700px;
     margin: 0 auto;
@@ -1351,7 +1347,6 @@ html,body,#root{
     color: #bbb;
 }
 
-/* Related Products */
 .related-products {
     max-width: 1150px;
     margin: 80px auto;
@@ -1401,7 +1396,7 @@ html,body,#root{
 }
 
 .related-card .star {
-    color: orangered;
+    color: red;
     margin: 8px 0;
 }
 
@@ -1429,7 +1424,7 @@ html,body,#root{
 }
 
 .product-not-found a {
-    color: orangered;
+    color: red;
 }
 
 
