@@ -16,7 +16,7 @@ html,body,#root{
     font-size: 25px;
 }
 
-/* Carousel */
+
 .slider-container {
     width: 100%;
     overflow: hidden;
@@ -46,6 +46,7 @@ html,body,#root{
     padding: 50px 150px;
     background-color: #111;
     overflow: hidden;
+    
 }
 
 .bgname {
@@ -84,10 +85,12 @@ html,body,#root{
 
 .hero p{
   margin-top: 20px;
+  font-size: 30px;
 }
 
 .hero p span {
-    color: gray;
+    color: rgb(114, 112, 112);
+    font-size: 25px;
 }
 
 .btn1 {
@@ -837,9 +840,7 @@ html,body,#root{
     font-size: 18px;
 }
 
-/* =========================
-   ALL PRODUCTS PAGE
-========================= */
+/* ALL PRODUCTS PAGE*/
 
 .products-page {
     min-height: 100vh;
@@ -848,10 +849,6 @@ html,body,#root{
     color: whitesmoke;
     padding-top: 70px;
 }
-
-/* =========================
-   FILTER SIDEBAR
-========================= */
 
 .filter-sidebar {
     width: 250px;
@@ -881,9 +878,7 @@ html,body,#root{
     opacity: 1;
 }
 
-/* =========================
-   SORT MENU
-========================= */
+/* SORT MENU */
 
 .sort-menu {
     display: flex;
@@ -906,9 +901,7 @@ html,body,#root{
     color: orangered;
 }
 
-/* =========================
-   FILTER OPTIONS
-========================= */
+/*  FILTER OPTIONS */
 
 .filter-heading {
     margin-top: 50px;
@@ -934,9 +927,7 @@ html,body,#root{
     margin-top: 50px !important;
 }
 
-/* =========================
-   PRODUCTS SECTION
-========================= */
+/* PRODUCTS SECTION */
 
 .all-products {
     flex: 1;
@@ -957,9 +948,7 @@ html,body,#root{
     gap: 15px;
 }
 
-/* =========================
-   PRODUCT CARDS
-========================= */
+/* PRODUCT CARDS */
 
 .product-page-card {
     background-color: #111 !important;
