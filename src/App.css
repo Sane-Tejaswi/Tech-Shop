@@ -31,11 +31,11 @@ html,body,#root{
 .slider-container .slick-dots li button:before {
     font-size: 9px;
     color: white;
-    opacity: 0.4;
+    opacity: 0.2;
 }
 
 .slider-container .slick-dots li.slick-active button:before {
-    color: orangered;
+    color: red;
     opacity: 1;
 }
 
@@ -69,7 +69,7 @@ html,body,#root{
 
 .image {
     width: 100%;
-    max-height: 500px;
+    max-height: 600px;
     object-fit: contain;
 }
 
@@ -103,7 +103,7 @@ html,body,#root{
     margin-top: 10px;
 }
 
-/* Slides */
+
 
 .featured-carousel {
     width: 100%;
@@ -184,7 +184,7 @@ html,body,#root{
     color: red;
 }
 
-/* ProdCards */
+
 
 .topProds h2 {
     text-align: center;
@@ -217,7 +217,7 @@ html,body,#root{
 .topProds .card {
     background-color: #111;
     color: whitesmoke;
-    border: 1px solid rgb(108, 107, 107);
+    border: 1px solid rgb(133, 131, 131);
     border-radius: 5px;
     padding: 5px;
     margin: 20px 0px;    
@@ -278,7 +278,6 @@ html,body,#root{
     justify-content: center;
 }
 
-/* Services */
 .services {
     background-color: #111;
     color: whitesmoke;
@@ -323,14 +322,13 @@ html,body,#root{
     font-size: 15px;
 }
 
-/* Footer */
+
 .footer {
     background-color: black;
     color: whitesmoke;
     padding: 60px 20px 20px ;
 }
 
-/* Top part */
 .footer-top {
     display: flex;
     justify-content: center;
