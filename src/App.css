@@ -10,13 +10,9 @@ html,body,#root{
   color: whitesmoke;
   padding-top: 20px;
 }
-
-/* Navbar */
 .navbar .navbar-brand{
     font-size: 25px;
 }
-
-
 .slider-container {
     width: 100%;
     overflow: hidden;

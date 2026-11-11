@@ -10,11 +10,9 @@ function ProdCards() {
   const dispatch = useDispatch()
   const productsData = useSelector(state => state.products.products)
   const topProductIds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
-
   const topProducts = productsData.filter((product) =>
     topProductIds.includes(product.id)
   );
-
   const filteredProducts =
     selectedCategory === "All"
       ? topProducts
@@ -24,9 +22,7 @@ function ProdCards() {
 
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
-
     setAddedProductId(product.id);
-
     setTimeout(() => {
       setAddedProductId(null);
     }, 2000);
@@ -34,9 +30,7 @@ function ProdCards() {
 
   return (
     <div className="topProds">
-
       <h2>Top Products</h2>
-
       <div className="btns">
         <button className={selectedCategory === "All" ? "active" : ""} onClick={() => setSelectedCategory("All")}>All</button>
         <button className={selectedCategory === "Headphones" ? "active" : ""} onClick={() => setSelectedCategory("Headphones")}>Headphones</button>
@@ -44,9 +38,7 @@ function ProdCards() {
         <button className={selectedCategory === "Earphones" ? "active" : ""} onClick={() => setSelectedCategory("Earphones")}>Earphones</button>
         <button className={selectedCategory === "Neckbands" ? "active" : ""} onClick={() => setSelectedCategory("Neckbands")}>Neckbands</button>
       </div>
-
       <div className="container">
-
         <div className="row">
           {
             filteredProducts.map((product) => (
@@ -60,7 +52,6 @@ function ProdCards() {
                       src={product.images[0]}
                       alt={product.title}
                     />
-
                     <p className="star">
                       {"★".repeat(product.rateCount)}
                     </p>
@@ -69,16 +60,13 @@ function ProdCards() {
 
                     <p>{product.info}</p>
                   </Link>
-
                   <hr />
-
                   <p>
                     ₹{product.finalPrice}
                     <del style={{ color: "gray" }}>
                       ₹{product.originalPrice}
                     </del>
                   </p>
-
                   <button
                     className={`addtocart ${addedProductId === product.id ? "added" : ""
                       }`}
