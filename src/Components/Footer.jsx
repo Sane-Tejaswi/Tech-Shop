@@ -4,8 +4,6 @@ import { FaChevronUp } from "react-icons/fa";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 function Footer() {
-    
-    
     const footMenu = [
         {
             id: 1,
